@@ -1,0 +1,71 @@
+header{
+    text-align: center;
+    font-family: 'Quicksand', serif;
+}
+h1{
+    font-weight: lighter;
+    color: #1E90FF;
+}
+ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+.header-nav li{
+    margin: 8px;
+    padding: 0;
+    font-size: 20px;
+    display: inline-block;
+}
+
+main{
+    text-align: center;
+}
+.block{
+    margin: 60px;
+}
+.block p{
+    display: inline-block;
+    margin: 10px 10px;
+}
+#placeholder{
+    margin: 50px auto;
+    display: block;
+}
+
+#placeholder:hover {
+    opacity: 0.6;
+}
+
+#list li{
+    font-size: 16px;
+    margin: 6px;
+    padding: 0;
+    text-align: center;
+}
+
+.backend{
+    color: blue;
+}
+
+button.remove-button{
+    color: #dc3545;
+    border: 1px solid white;
+    background-color: white;
+    padding: 3px;
+    margin: 3px;
+}
+
+button.remove-button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #dc3545;
+}
+
+input{
+    font-size: 12px;
+}
+
+progress{
+    margin: 0 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem Set 4</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Shuyang Du' s Web Development Skills</h1>
+    <nav>
+        <ul class="header-nav">
+            <li><a href="https://coldstream-louis.github.io/PortfolioSI539">Portfolio</a></li>
+            <li><a href="https://drive.google.com/file/d/1cOxFti_q_3WVrae8R80uzZNAz9lqT1nx/view?usp=sharing">Resume</a></li>
+            <li><a href="https://github.com/Coldstream-Louis">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Skill Set</h2>
+
+    <div class="block">
+        <button id="hide-backend-button">Hide Backend</button>
+        <button id="all-button">Display All</button>
+        <ul id="list">
+            <li id="listItem-1">HTML/CSS: <progress max="100" value=70></progress><button id="remove_1" onclick="remove1()" class="remove-button">Remove</button></li>
+            <li id="listItem-2">JavaScript: <progress max="100" value=80></progress><button id="remove_2" onclick="remove2()" class="remove-button">Remove</button></li>
+        </ul>
+    </div>
+    <div class="block">
+        <input type="text" id="item-name"/>
+        <input type="number" id="item-value" placeholder="Enter Integer 0 to 100">
+        <input type="checkbox" id="is-backend"/>
+        <label for="is-backend">Is Backend</label>
+    </div>
+    <div class="block">
+        <input type="submit" value="Add to List" id ="addButton">
+    </div>
+
+</main>
+</body>
+</html>
